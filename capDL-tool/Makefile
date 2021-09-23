@@ -48,8 +48,8 @@ sandbox:
 # for current capDL-tool usage behavior.
 .PHONY: $(TARGET)
 $(TARGET):
-	stack build --fast
-	stack install
+	#stack build --fast
+	#stack install
 
 .PHONY: install
 # Deprecated. This used to be `stack install` but did not install
